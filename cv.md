@@ -6,7 +6,12 @@
 
 **Email** Happymalina@yndex.ru *(preferred means of communication)*
 
+**Telegram** @irina_malinovskaya
+
 **Actual location**  Saint Petersburg , Ready to relocate
+
+
+[LinkedIn](https://www.linkedin.com/comm/in/irina-malinovskaya "LinkedIn Irina Malinovskaya")
 
 ----
 
@@ -40,6 +45,43 @@ I expect that the RS School course will help to remember the very base, close th
     + a sense of empathy and friendliness
     + calm and optimism
     + observation
+
+----
+
+## Example of code
+
+Determining the day of the week when entering a number in the field
+
+Markup
+```
+<input type="text" class="input" placeholder="Дата в формате 31.12.2016">
+<p class="day-name">
+  День недели: <b> </b>
+</p>
+```
+
+Javascript
+```
+var input = document.querySelector('.input');
+var dayNameText = document.querySelector('.day-name b');
+var weekend = ["Воскресенье", "Понедельник", "Вторник", "Среда", "Четверг", "Пятница", "Суббота"];
+
+input.addEventListener('blur', function(){
+
+  var inputValue = this.value;
+  var inputArray = inputValue.split('.');
+  var inputArrayReverse = inputArray.reverse();
+  var inputArrayJoin = inputArray.join(',');
+  
+  var actualDate = new Date(inputArrayJoin);
+  var actualDay = actualDate.getDay();
+ 
+  dayNameText.textContent = weekend[actualDay];
+  
+});
+```
+
+[Link on working task](https://jsfiddle.net/ubrwLatv/24/)
 
 ----
 
@@ -112,10 +154,11 @@ HTML и CSS. Level
 
 ----
 
-## Key skills
+## Language skills
 
 * Languages
     + Russian — Native
     + English — A2 - B1 (I am ready to raise the level, at the moment there is little practice)
-    + German — A1 — Basic
+    ![photo of english test](images/result-english.jpg)
+    + German — A1 — Basic (School programm)
 
