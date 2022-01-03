@@ -11,7 +11,7 @@
 **Actual location**  Saint Petersburg , Ready to relocate
 
 
-[LinkedIn](https://www.linkedin.com/comm/in/irina-malinovskaya "LinkedIn Irina Malinovskaya")
+[LinkedIn](https://www.linkedin.com/in/irina-malinovskaya-2056a0b4/ "LinkedIn Irina Malinovskaya")
 
 ----
 
